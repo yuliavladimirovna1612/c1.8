@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+  </head>
+  <body>
+  	<h1 id="head_h1">Свойства innerHTML и outerHTML</h1>
+  	<p id="paragraph">В отличие от свойства textContent, данное свойство (innerText) как бы копирует текст в веб-браузере, который отображается HTML кодом, расположенным между открывающим и закрывающим тегом того элемента, для которого вызывается данное свойство. Т.е. свойство innerHTML учитывает стили элементов, а именно отображается элемент или нет, а, следовательно, и его содержимое в браузере. Кроме этого данное свойство также ещё учитывает в каком элементе находится узел, содержащий текст. Например, содержимое элемента script данное свойство не учитывает, т.к. оно не отображается в браузере, а является сценарием, которое выполняется при определённых условиях.</p>
+
+  	<button id="button1">Remove head</button>
+	<button id="button2">Change text</button>
+
+    <script src="./js/script.js"></script>
+  
+  </body>
+</html>
